@@ -1,0 +1,24 @@
+{
+  "name": "Bubblesort-RNN",
+  "ranges": [
+    "data.train.num_annotated",
+    "data.train.num_unannotated"
+  ],
+  "data": {
+    "train": {
+      "dirname": "data/bubblesort/train",
+      "num_annotated": [0],
+      "num_unannotated": [10, 20, 30, 40, 50, 60, 70, 80, 90, 100],
+      "batch_size": 4,
+      "unannotated_throttling_steps": 0
+    },
+    "test": {
+      "dirname": "data/bubblesort/test",
+      "num_traces": 100
+    }
+  },
+  "device": "cuda",
+  "num_processes": 10,
+  "num_threads": 8,
+  "num_steps": 50000
+}

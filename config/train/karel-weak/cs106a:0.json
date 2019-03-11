@@ -1,0 +1,18 @@
+{
+  "name": "Karel-Weak-cs106a:0",
+  "data": {
+    "train": {
+      "dirname": "data/karel-weak/cs106a:0/train",
+      "num_annotated": 0,
+      "num_unannotated": 1000,
+      "batch_size": 10,
+      "unannotated_throttling_steps": 0
+    },
+    "test": {
+      "dirname": "data/karel-weak/cs106a:0/test",
+      "num_traces": 100
+    }
+  },
+  "device": "cpu",
+  "num_steps": 100000
+}

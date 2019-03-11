@@ -1,0 +1,10 @@
+{
+  "train": {
+    "num_traces": 160,
+    "dirname": "data/bubblesort/train"
+  },
+  "test": {
+    "num_traces": 100,
+    "dirname": "data/bubblesort/test"
+  }
+}

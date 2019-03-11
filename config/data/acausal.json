@@ -1,0 +1,10 @@
+{
+  "train": {
+    "num_traces": 10000,
+    "dirname": "data/acausal/train"
+  },
+  "test": {
+    "num_traces": 10000,
+    "dirname": "data/acausal/test"
+  }
+}

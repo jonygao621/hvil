@@ -1,0 +1,10 @@
+matplotlib
+numpy
+ply
+pylru
+python>=3.6
+scipy
+tensorflow
+torch
+torchvision
+tqdm

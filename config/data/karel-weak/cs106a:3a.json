@@ -1,0 +1,21 @@
+{
+   "agent": {
+      "branch": 0,
+      "levels": 0,
+      "name": "Karel-Weak"
+   },
+   "data": {
+      "test": {
+         "dirname": "data/karel-weak/cs106a:3a/test",
+         "num_traces": 100
+      },
+      "train": {
+         "dirname": "data/karel-weak/cs106a:3a/train",
+         "num_traces": 1000
+      }
+   },
+   "env": {
+      "name": "Karel",
+      "program": "cs106a:3a"
+   }
+}

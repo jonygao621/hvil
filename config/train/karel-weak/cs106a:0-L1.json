@@ -1,0 +1,33 @@
+{
+   "agent": {
+      "branch": 5,
+      "levels": 1,
+      "name": "Karel-Weak",
+      "num_grids": 0
+   },
+   "env": {
+      "name": "Karel",
+      "program": "cs106a:0"
+   },
+   "train": {
+      "data": {
+         "test": {
+            "dirname": "data/karel-weak/cs106a:0/test",
+            "num_traces": 100
+         },
+         "train": {
+            "batch_size": 10,
+            "dirname": "data/karel-weak/cs106a:0/train",
+            "num_annotated": 0,
+            "num_unannotated": 1000,
+            "unannotated_throttling_steps": 0
+         }
+      },
+      "device": "cpu",
+      "eval_freq": 100,
+      "keep_save_freq": 1000,
+      "name": "Karel-Weak_cs106a:0_L1",
+      "num_steps": 100000,
+      "save_freq": 100
+   }
+}
